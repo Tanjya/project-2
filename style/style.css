@@ -106,7 +106,7 @@ ul li:before {
     justify-content: center;
 }
 .goals{
-    padding:0px 230px;  
+    padding:0px 230px; 
 }
 .icon{
 
@@ -115,12 +115,22 @@ ul li:before {
 }
 /* call page */ 
 .call-page{
-    background-image: url(../images/watch.png);
-    background-repeat: no-repeat;
     margin-left: 150px;
     margin-top: 130px;
-    background-size: ;
-    
+    background-color: white;
+    margin-bottom: 550px;
+}
+.container{
+    position: relative;
+}    
+.img-one{
+    position: absolute;
+}
+.second-img{
+    position: absolute;
+}
+.container-block{
+    position: absolute;
 }
 .call-title{
     color: #FFFFFF;
@@ -130,6 +140,8 @@ ul li:before {
     padding: 0px 60px;
     padding-top: 50px;
     margin-bottom: 25px;
+    position: absolute;
+    
 }
 .call-btn{
     background: #FFFFFF;
@@ -139,9 +151,58 @@ ul li:before {
     border: none;
     padding: 16px 18px;
     color: #F15B22;
+    margin-top: 180px;
     margin-left:60px;
-    margin-bottom: 60px;
 }
-.on-top{
-    flex: wrap;
+
+/* last page */
+.last-page{
+    background: #151414;
+}
+.last-block{
+    display: flex;
+    gap: 300px;
+    padding: 130px 150px;
+}
+.last-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.last-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 485px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 16px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+.sub input{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 20px;
+    padding-right: 150px;
+    text-align: left;
+    background-color:  #151414;
+    
+}
+.sub-btn{
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    padding: 16px 18px;
+    color: #F15B22;
+    margin-top: 16px;
+    
 }
